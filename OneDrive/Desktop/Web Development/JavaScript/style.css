@@ -1,0 +1,312 @@
+.maindiv {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1100px;
+    height: 550px;
+}
+
+.leftmaindiv {
+    width: 350px;
+    height: 550px;
+    background-color: gainsboro;
+   
+}
+
+.headerbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 350px;
+    height: 80px;
+    background-color: skyblue;
+}
+
+.barlogo {
+    font-size: x-large;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.ordericon{
+    font-size: larger;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+
+.buttontype {
+    width: 120px;
+    height: 45px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 65px;
+    margin-top: 10px;
+    background-color: white;
+    border: solid 1px gainsboro;
+
+}
+
+.acceptingicon{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+
+.acceptingfont {
+    margin-left: 10px;
+    font-size: large;
+    font-weight:lighter
+}
+
+.rightmaindiv {
+    width: 750px;
+    height: 550px;
+    background-color: aliceblue;
+}
+
+.lowerbar{
+    margin-top: 5px;
+}
+
+.lowerbarheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 55px;
+    background-color: skyblue;
+    cursor: pointer;
+    
+}
+
+.lowerbaractive{
+    font-size: large;
+    
+    width: 175px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lowerbaractive:hover {
+    border-bottom: solid blue 2px;
+}
+
+.lowerbarupcoming{
+    font-size: large;
+    width: 175px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lowerbarupcoming:hover {
+    border-bottom: solid blue 2px;
+}
+
+.deliveryimageouter {
+    width: 350px;
+    height: 410px; 
+    background-color: skyblue;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.deliveryimageinner {
+    width: 350px;
+    height: 130px;
+    background-image: url(Screenshot_2024-12-16_104356-removebg-preview.png);
+    background-size: cover;
+    margin-right: 40px;
+}
+
+.buttontag {
+    width : 300px;
+    height: 60px;
+    background-color: white;
+    border: solid gainsboro 2px;
+    border-radius: 5px;
+}
+
+.rightmaindivinside {
+    margin-left: 10px;
+    width: 700px;
+    height: 520px;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+.DoorDashheadertag {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+
+.DoorDashlogo {
+background-image: url(Screenshot_2024-12-16_105507-removebg-preview.png);
+width: 40px;
+height: 40px;
+background-size: contain;
+margin-top: 10px;
+margin-left: 20px;
+}
+
+.ordersect1 {
+    background-color: skyblue;
+    width: 600px;
+    height: 140px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ordersecttext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20px;
+    
+}
+
+.ordersecttext1 {
+    height: 50px;
+    font-size: larger;
+    margin-top: 0px;
+}
+
+.ordersecttext2 {
+    width: 300px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.ordersecttext2 {
+    margin: 0px;
+}
+
+.ordersectphoto {
+    margin-left: 110px;
+}
+
+.ordersectphotobackgroundimage {
+    width : 120px;
+    height: 120px;
+    background-color: navy;
+    background-image: url(Screenshot\ 2024-12-16\ 105230.png);
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.ordersecttext2ab {
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.ordersect12 {
+    background-color: skyblue;
+    width: 600px;
+    height: 140px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+.missinfosec {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: center;
+    width: 300px;
+}
+
+.missinfinfotext {
+    margin-left: 10px;
+}
+
+.shoppingmissinginfo {
+    align-self: flex-start;
+}
+
+.secondsec {
+    background-color: aliceblue;
+    width: 600px;
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin-top: 15px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; */
+}
+
+
+.headingsec2a {
+    width: 500px;
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 10px
+}
+
+.missingsec {
+    margin-left: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px black solid;
+    margin-top: 15px;
+
+    
+}
+
+.logosec {
+    margin-top: 15px;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+.textsec {
+    color: whitesmoke;
+}
+
+.parasec2a {
+    margin-left: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
